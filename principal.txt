@@ -1,2 +1,3 @@
 Ciclo repetitivo
 Es cuando una o varias lineas de codigo se ejecutan mas de 2 veces, lo cual ayuda ahorrar lineas de codigo.
+Facilita el manejo y es facil de comprender.
