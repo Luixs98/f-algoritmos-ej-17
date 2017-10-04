@@ -1,21 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package tabla_de_multiplicar;
-
-/**
- *
- * @author dell
- */
+import java.util.Scanner;
 public class Tabla_de_multiplicar {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner leer=new Scanner (System.in);
+        int n=0;
+        System.out.println("Porfavor ingrese un numero");
+        n = leer.nextInt();
+        int multi=12;
+        for (int i = 0; i < multi; i++) {
+            System.out.println((i+1)+" x " +n+ " = " +(i+1)*n);
+        }
+        System.out.println("Finalizado");
+           
     }
     
 }
