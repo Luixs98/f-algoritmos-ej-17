@@ -1,3 +1,34 @@
 Ciclo repetitivo
 Es cuando una o varias lineas de codigo se ejecutan mas de 2 veces, lo cual ayuda ahorrar lineas de codigo.
 Facilita el manejo y es facil de comprender.
+    1  echo "# f-algoritmos-ej-17" >> README.md
+    2  git init
+    3  git add README.md
+    4  git commit -m "first commit"
+    5  git remote add origin https://github.com/Luixs98/f-algoritmos-ej-17.git
+    6  git push -u origin master
+    7  git commit -m "first commit"
+    8  git config --global user.email "wlyfm2015@gmail.com"
+    9  git config --global user.name "Luixs98"
+   10  echo "# f-algoritmos-ej-17" >> README.md
+   11  git init
+   12  git add README.md
+   13  git commit -m "first commit"
+   14  git remote add origin https://github.com/Luixs98/f-algoritmos-ej-17.git
+   15  git push -u origin master
+   16  git status
+   17  git add principal.txt
+   18  git commit -m -a "Ciclos repetitivos"
+   19  git push
+   20  git commit -m -a"Ciclos repetitivos"
+   21  git push
+   22  git status
+   23  git status
+   24  git commit -m -a"Version 1.01"
+   25  git push
+   26  git commit -m -a"Version 1.01"
+   27  git status
+   28  git commit -a -m"Version 1.01"
+   29  git push
+   30  git status
+   31  history
